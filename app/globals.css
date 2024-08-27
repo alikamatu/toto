@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 body {
-    background: #22223b;
+    background: linear-gradient(120deg, rgba(34, 34, 34, 0.966), #222b), url('../assets/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
